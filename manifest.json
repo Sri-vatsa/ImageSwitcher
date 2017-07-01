@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Image Switcher",
+  "description": "Change all images in the tab!",
+  "version": "1.0",
+
+  "icons": {
+    "19": "cuteface.png"
+  },
+
+  "permissions": ["tabs", "<all_urls>"],
+
+  "browser_action": {
+    "default_icon": "cuteface.png",
+    "default_popup": "popup.html"
+  }
+}
